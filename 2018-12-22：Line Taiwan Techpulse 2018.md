@@ -7,38 +7,54 @@
 ## Marco Chen
 ## Line的技術策略:兩大主題
 
-串連 connect
+### 串連 connect
 
 透過Discover, Natural UX
 大量利用AI在分析與辨識
 
-付費生態圈 mutual benefit ecosystem
+### 付費生態圈 mutual benefit ecosystem
 
-Open API:
-Message API
-LIFF
-LIFF chain（應用區塊鏈）
-去中心化
-獎勵用戶做出貢獻
-流通不同服務的數位貨幣
-透過LINK chain來解決處理效率問題
-Clova
-目前尚無法處理中文
-Chatbot engine
-目前尚無法處理自然語言的對話
+目前有以下這些Open API:
+- Message API
+- LIFF
+- LIFF chain（應用區塊鏈）
 
-LINE platform
+  去中心化
+  
+  獎勵用戶做出貢獻
+  
+  流通不同服務的數位貨幣
+  
+  透過LINK chain來解決處理效率問題
+- Clova
+
+  目前尚無法處理中文
+  
+  Chatbot engine
+  
+  目前尚無法處理自然語言的對話
+
+
+## LINE platform
+
 How is it cost?
-官方帳號2.0計畫
+官方帳號2.0計畫: 預計明年Q2推出官方帳號2.0、計價更彈性
+
 Build everything from scratch?
+
 Re-use oriented software programming
+
 Micro service -> PAAS -> New initiative POC -> Open API
+
 Oversea Open API
+
 OXII-VN
+
 TODAY APP-ID
 
-Yvonne Wang
-LINE platform API Update
+## Yvonne Wang
+## LINE platform API Update
+
 打造更好的chatbot服務
 More service on line
 Messaging API
@@ -76,9 +92,9 @@ New Official Account
 Ask will start from $0 with Messaging API.
 Chatbot engine
 NLU tool integrated in LINE bot natively.
-＝＝＝＝＝＝＝＝＝＝
-Bill Chan
-LINE Pay X 一卡通
+
+## Bill Chan
+## LINE Pay X 一卡通
 
 行動支付生態圈
 Credit card+LINE points
@@ -95,15 +111,15 @@ iPass帳戶連結銀行帳戶
 LINE Pay open API
 商店交易可投過Credit card, LINE points或iPass來付款
 
-市政府資訊局長 李維斌
-市政府smart portal
+## 市政府資訊局長 李維斌
+## 市政府smart portal
 
 重新分類市政服務
 透過LINE整合服務申請流程資訊化
 
-Kevin Luo
-LINE Things
-LINE IOT平台技術分享
+## Kevin Luo
+## LINE Things
+## LINE IOT平台技術分享
 
 Why Line Things
 Every one is using LINE
@@ -127,16 +143,16 @@ You can send messages when customer entering your store
 Service Architecture
 LIFF BLE
 
-Features:
-Devices link
-LIFF SDK with BLE (JS)
-Automated BLE communication
+### Features:
+- Devices link
+- LIFF SDK with BLE (JS)
+- Automated BLE communication
 
 Sample code on github: line-things-starter
 
-Jin-Hee Lee (KR)
-LINK chain and LINK
-LINE區塊鏈平台與代幣經濟
+## Jin-Hee Lee (KR)
+## LINK chain and LINK
+## LINE區塊鏈平台與代幣經濟
 
 LINE needs blockchain and cryptocurrencies
 
@@ -164,10 +180,10 @@ Easy integration to blockchain
 Flexible and scalable
 BitBox 註冊送3link
 
-陳宏宇 國家災害防救科技中心
+## 陳宏宇 國家災害防救科技中心
 
-Kuan-Wei Lin
-LINE TODAY高效率的敏捷測試開發技巧
+## Kuan-Wei Lin
+## LINE TODAY高效率的敏捷測試開發技巧
 
 DevOps <> Design <> Testing <> Discover <> DevOps …
 Shorter Release Cycle
@@ -187,13 +203,13 @@ Continuous improvement
 1 PR should less than 200 line
 Testing on native iOS or Android
 
-Nishikawa
-KAAS in line private cloud
+## Nishikawa
+## KAAS in line private cloud
 Verda
 
-Sean Huang
-LINE Chatbot
-活動報名報到設計及分享
+## Sean Huang
+## LINE Chatbot
+## 活動報名報到設計及分享
 
 Registration Chatbot
 Registration:
@@ -211,8 +227,8 @@ Smart City
 With IOT
 Questionnaire
 
-日本開發者大會分享
-Deniel Kao
+## 日本開發者大會分享
+## Deniel Kao
 
 Too many features, too less time
 LINE TODAY service, becomes content portal
@@ -221,9 +237,9 @@ Proposed approach:
 2. Find pain points
 3. Iterate
 
-Irene Chen
+## Irene Chen
+## LINE BUZZ
 
-LINE BUZZ
 Users can share fun image or video
 HBASE as database
 1. Indexed only based on rockets
@@ -235,9 +251,9 @@ By control consumer’s offset commit
 Call commit only when all message are processed successfully
  Duplicate message might be avoid
 
-TingTing Hu
+## TingTing Hu
+## Taipei Metro X LINE Beacon
 
-Taipei Metro X LINE Beacon
 LINE TODAY - enrich your 50 minutes commute time
 Coupon - give you what’s near you
 Puzzle Game - make the city your playground
@@ -249,8 +265,8 @@ Event handling
 Zookeeper Key = UserID + Event Type
 Event processing speedup with indecently db entry
 
-Yeats Yang
-LINE新星計畫介紹與新星團隊分享
+## Yeats Yang
+## LINE新星計畫介紹與新星團隊分享
 LINE PROTOSTAR
 
 We offer…
@@ -275,12 +291,12 @@ Strategy or financial investment
 Partnership for LINE new service
 Other reward option
 
-LINE partner app
+## LINE partner app
 潔客幫
 跑跑腿
 
-Evan Lin
-LINE開發者社群推廣
+## Evan Lin
+## LINE開發者社群推廣
 
 LINE developer website
 LINE engineering blog
@@ -292,8 +308,8 @@ LINE Things - starter
 LINE SimpleBeacon
 LINE BOOT awards (global)
 
-Kay Chang
-LINE技術合作夥伴與應用分享
+## Kay Chang
+## LINE技術合作夥伴與應用分享
 
 We offer…
 Latest tech update
