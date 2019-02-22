@@ -1,0 +1,13 @@
+## 如果eslint中發現某個rule已經deprecated，該如何處理？
+
+我們都知道eslint的好處
+
+但是在這變化快速的時代
+
+eslint所用的rule也常常更新
+
+但有時候原作者是將舊rule標為deprecated而不是直接刪除
+
+我們在安裝哪些plugin的時候就會一併將新舊rule一起裝進來了
+
+這時候可能會在編輯器發現這樣的錯誤提示
