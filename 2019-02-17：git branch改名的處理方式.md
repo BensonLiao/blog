@@ -4,9 +4,46 @@
 
 `git push -u origin master`
 
-那麼如果今天我們需要修改現有分支的名稱，該怎麼做呢？
+之後要push就不必再加後面的參數
 
-github是不支援直接在網站上修改的
+直接下`git push`
+即可
+
+那麼如果今天我們需要修改現有分支的名稱，該怎麼做呢？( github是不支援直接在網站上修改的 )
 
 因此我們先刪除要改名的分支，在重新建立一個分支
 
+# 1.刪除遠端分支
+
+```
+git remote <REMOTE_REPOSITORY> <SOURCE_BRANCH_NAME>:<DESTINY_BRANCH_NAME>
+git remote origin :old_branch
+```
+*<SOURCE_BRANCH_NAME>:<DESTINY_BRANCH_NAME>意思是將本地的SOURCE_BRANCH_NAME推到遠端的DESTINY_BRANCH_NAME
+
+如果SOURCE_BRANCH_NAME在遠端分支中找不到的話就以SOURCE_BRANCH_NAME為分支名稱推到遠端的DESTINY_BRANCH_NAME
+
+利用這個特性我們可以把SOURCE_BRANCH_NAME留空
+
+那麼git就會將空白的名字推到遠端的DESTINY_BRANCH_NAME
+
+也就是刪除掉這個分支
+
+ref: [https://git-scm.com/docs/git-push#OPTIONS](https://git-scm.com/docs/git-push#OPTIONS)
+
+# 2.建立本地分之
+
+`git branch -m new_branch`
+
+# 3.將新分支重新推到遠端
+
+`git push origin -u new_branch`
+
+記住這邊一樣要使用第一次push用的指令組合
+
+這樣git才會更新refs
+
+否則直接下`git push`會看到`fatal: The upstream branch of your current branch does not match
+the name of your current branch.`
+
+可以下`git branch -vv`或是`git show-ref`查看目前分支設定
