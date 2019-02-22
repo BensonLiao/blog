@@ -55,3 +55,15 @@ ref: [https://git-scm.com/docs/git-push#OPTIONS](https://git-scm.com/docs/git-pu
 the name of your current branch.`
 
 可以下`git branch -vv`或是`git show-ref`查看目前分支設定
+
+## 記錄一下git add指令說明
+
+`git add directory_or_file`
+
+會將選定的目錄或檔案加進提交暫存區(stage)
+
+加進去後才可下`git commit`提交修改
+
+directory_or_file可以是當前目錄`git add .`
+
+或者是特定子目錄`git add path/to/dir/.`
