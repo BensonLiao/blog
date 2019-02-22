@@ -31,9 +31,17 @@ git remote origin :old_branch
 
 ref: [https://git-scm.com/docs/git-push#OPTIONS](https://git-scm.com/docs/git-push#OPTIONS)
 
-# 2.建立本地分之
+# 2.建立本地分支
 
 `git branch -m new_branch`
+
+這個就沒什麼特別就是把當前branch名稱改為new_branch
+
+另外這個建立完後不會移動分支
+
+必須下`git checkout new_branch`才會移動至新分支
+
+要直接在建立完之後移動至該分支的話可以下`git checkout -b new_branch`
 
 # 3.將新分支重新推到遠端
 
