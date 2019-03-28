@@ -31,6 +31,19 @@ git remote origin :old_branch
 
 ref: [https://git-scm.com/docs/git-push#OPTIONS](https://git-scm.com/docs/git-push#OPTIONS)
 
+## 1.2刪除本地分支
+
+```
+git branch -d branch_to_delete
+```
+指令會把 **已經完成合併的分支** 刪除，如果該分支有尚未合併的工作則會報錯
+```
+error: The branch 'branch_to_delete' is not fully merged.
+If you are sure you want to delete it, run 'git branch -D branch_to_delete'.
+```
+因此這邊分成兩個狀況：該分支是否完成合併，可以下`git branch --no-merged`來檢查尚未完成合併的分支，
+最後從錯誤訊息可以知道這裡也有強制的選項，也就是`-D`，如果真的確定不需要這些動作就可以直接強制刪除分支
+
 # 2.建立本地分支
 
 `git branch -m new_branch`
