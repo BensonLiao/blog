@@ -1,6 +1,6 @@
-As title,
-How do we loop array in reverse way with forEach?
-Simple, we can acheive this just with the native arguments:
+As title,  
+How do we loop array in reverse way with forEach?  
+Simple, we can acheive this just with the native arguments:  
 
 ```js
 var array = [1, 2, 3];
