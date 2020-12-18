@@ -1,3 +1,5 @@
+Usually locate in the home directory like `~/.zshrc`
+
 ```zsh
 # If you come from bash you might have to change your $PATH.
 # export PATH=$HOME/bin:/usr/local/bin:$PATH
@@ -120,5 +122,4 @@ alias gca='git commit --amend'
 alias gps='git push'
 alias gpso='git push origin'
 alias gsmu='git submodule update'
-
 ```
