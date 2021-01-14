@@ -1,7 +1,8 @@
-This config are based on [oh-my-zsh](https://ohmyz.sh/)  
+This config are based on [oh-my-zsh](https://ohmyz.sh/),  
 you can install it by the command: `sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"`  
-Usually the config file are locate in the user's home directory like `~/.zshrc`
+Usually the config file are locate in the user's home directory like `~/.zshrc`. [ref](https://mrmad.com.tw/macos-terminal-oh-my-zsh)
 
+And the following are my useful config with also git command aliases. 
 ```zsh
 # If you come from bash you might have to change your $PATH.
 # export PATH=$HOME/bin:/usr/local/bin:$PATH
